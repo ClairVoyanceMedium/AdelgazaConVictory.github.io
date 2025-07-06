@@ -1,104 +1,221 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
-        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
-        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0">
+  <!-- Página española (prioridad máxima para mercado español) -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/voyance/es/</loc>
+    <lastmod>2025-05-28T00:56:00Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <mobile:mobile/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://clairvoyancemedium.github.io/voyance/es/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://clairvoyancemedium.github.io/voyance/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://clairvoyancemedium.github.io/voyance/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://clairvoyancemedium.github.io/voyance/de/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://clairvoyancemedium.github.io/voyance/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://clairvoyancemedium.github.io/voyance/pt/" />
+    <image:image>
+      <image:loc>https://i.imgur.com/x9jJPra.jpg</image:loc>
+      <image:title>Servicios de Adelgazamiento Psíquico en España</image:title>
+      <image:caption>Soluciones espirituales para perder peso de forma natural</image:caption>
+      <image:geo_location>España</image:geo_location>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/Dj-pfiIzB44/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Domina el Adelgazamiento Psíquico Hoy - Método Exclusivo</video:title>
+      <video:description>Descubre los secretos de la pérdida de peso espiritual con nuestros expertos en España</video:description>
+      <video:content_loc>https://www.youtube.com/shorts/Dj-pfiIzB44</video:content_loc>
+      <video:publication_date>2025-05-27</video:publication_date>
+      <video:duration>60</video:duration>
+      <video:view_count>15000</video:view_count>
+      <video:category>Bienestar Espiritual</video:category>
+      <video:tag>psíquico</video:tag>
+      <video:tag>adelgazar</video:tag>
+      <video:tag>España</video:tag>
+      <video:tag>método natural</video:tag>
+      <video:author>Equipo de Adelgazamiento Psíquico</video:author>
+      <video:license>https://www.clairvoyancemedium.com/Condiciones-Generales-de-Venta-y-Uso-ccsaaaaaa.asp</video:license>
+      <video:rating>5.0</video:rating>
+    </video:video>
+  </url>
+  
+  <!-- Página de inicio (versión española prioritaria) -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/voyance/</loc>
+    <lastmod>2025-05-28T00:56:00Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+    <mobile:mobile/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://clairvoyancemedium.github.io/voyance/es/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://clairvoyancemedium.github.io/voyance/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://clairvoyancemedium.github.io/voyance/fr/" />
+    <image:image>
+      <image:loc>https://i.imgur.com/x9jJPra.jpg</image:loc>
+      <image:title>Adelgazamiento Psíquico - Soluciones Espirituales</image:title>
+      <image:caption>Transforma tu vida con nuestro método de adelgazamiento espiritual</image:caption>
+      <image:geo_location>España</image:geo_location>
+    </image:image>
+  </url>
 
-    <!-- 🔥 Page d'accueil (Priorité maximale) -->
-    <url>
-        <loc>https://clairvoyancemedium.github.io/Comment-retrouver-l-amour-rapidement.github.io/</loc>
-        <lastmod>2025-02-17</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-        <image:image>
-            <image:loc>https://clairvoyancemedium.github.io/images/homepage-main.jpg</image:loc>
-            <image:title>Retrouver l'Amour Rapidement</image:title>
-            <image:caption>Techniques puissantes pour attirer et garder l'amour.</image:caption>
-        </image:image>
-    </url>
+  <!-- Página francesa -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/voyance/fr/</loc>
+    <lastmod>2025-05-28T00:56:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <mobile:mobile/>
+  </url>
 
-    <!-- 🔍 Pages principales -->
-    <url>
-        <loc>https://clairvoyancemedium.github.io/Comment-retrouver-l-amour-rapidement.github.io/rituels-amour/</loc>
-        <lastmod>2025-02-15</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <image:image>
-            <image:loc>https://clairvoyancemedium.github.io/images/rituels-amour.jpg</image:loc>
-            <image:title>Rituels d'Amour Puissants</image:title>
-            <image:caption>Découvrez comment les rituels d’amour peuvent renforcer vos relations.</image:caption>
-        </image:image>
-    </url>
+  <!-- Página inglesa -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/voyance/en/</loc>
+    <lastmod>2025-05-28T00:56:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <mobile:mobile/>
+  </url>
 
-    <url>
-        <loc>https://clairvoyancemedium.github.io/Comment-retrouver-l-amour-rapidement.github.io/voyance-email/</loc>
-        <lastmod>2025-02-15</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <image:image>
-            <image:loc>https://clairvoyancemedium.github.io/images/voyance-email.jpg</image:loc>
-            <image:title>Voyance par E-mail</image:title>
-            <image:caption>Posez vos questions à un voyant expérimenté par e-mail.</image:caption>
-        </image:image>
-    </url>
+  <!-- Página alemana -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/voyance/de/</loc>
+    <lastmod>2025-05-28T00:56:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <mobile:mobile/>
+  </url>
 
-    <!-- 🎥 Contenu Vidéo (avec ID réel de la vidéo) -->
-    <url>
-        <loc>https://clairvoyancemedium.github.io/Comment-retrouver-l-amour-rapidement.github.io/videos/comment-seduire-vite/</loc>
-        <lastmod>2025-02-10</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-        <video:video>
-            <video:player_loc>https://www.youtube.com/watch?v=ABCD1234EFG</video:player_loc>
-            <video:thumbnail_loc>https://clairvoyancemedium.github.io/images/video-thumbnail.jpg</video:thumbnail_loc>
-            <video:title>Comment séduire rapidement</video:title>
-            <video:description>Découvrez les meilleures techniques pour séduire efficacement.</video:description>
-        </video:video>
-    </url>
+  <!-- Página italiana -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/voyance/it/</loc>
+    <lastmod>2025-05-28T00:56:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <mobile:mobile/>
+  </url>
 
-    <!-- 📰 Articles Google News -->
-    <url>
-        <loc>https://clairvoyancemedium.github.io/Comment-retrouver-l-amour-rapidement.github.io/news/nouvelle-technique-de-seduction/</loc>
-        <lastmod>2025-02-13</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-        <news:news>
-            <news:publication>
-                <news:name>Voyance & Amour News</news:name>
-                <news:language>fr</news:language>
-            </news:publication>
-            <news:publication_date>2025-02-13</news:publication_date>
-            <news:title>Nouvelle Technique de Séduction Révélée</news:title>
-            <news:keywords>séduction, amour, relation</news:keywords>
-        </news:news>
-    </url>
+  <!-- Página portuguesa (énfasis en Brasil) -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/voyance/pt/</loc>
+    <lastmod>2025-05-28T00:56:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <mobile:mobile/>
+    <image:image>
+      <image:loc>https://i.imgur.com/x9jJPra.jpg</image:loc>
+      <image:title>Serviços de Emagrecimento Psíquico</image:title>
+      <image:caption>Soluções espirituais para perda de peso</image:caption>
+      <image:geo_location>Brasil</image:geo_location>
+    </image:image>
+  </url>
 
-    <!-- 📱 Page optimisée pour mobile -->
-    <url>
-        <loc>https://clairvoyancemedium.github.io/Comment-retrouver-l-amour-rapidement.github.io/mobile/</loc>
-        <lastmod>2025-02-17</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-        <mobile:mobile/>
-    </url>
+  <!-- Blog en español -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/voyance/es/blog/</loc>
+    <lastmod>2025-05-28T00:56:00Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <mobile:mobile/>
+    <image:image>
+      <image:loc>https://i.imgur.com/H69KvL6.png</image:loc>
+      <image:title>Blog de Bienestar Espiritual</image:title>
+      <image:caption>Consejos y técnicas para adelgazar con energía espiritual</image:caption>
+      <image:geo_location>España</image:geo_location>
+    </image:image>
+  </url>
 
-    <!-- 📜 Pages légales -->
-    <url>
-        <loc>https://clairvoyancemedium.github.io/Comment-retrouver-l-amour-rapidement.github.io/mentions-legales/</loc>
-        <lastmod>2025-01-10</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.5</priority>
-    </url>
+  <!-- Comunicado de prensa en español -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/voyance/es/blog/comunicado-prensa/</loc>
+    <lastmod>2025-05-28T00:56:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <mobile:mobile/>
+    <news:news>
+      <news:publication>
+        <news:name>Adelgazamiento Psíquico</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2025-05-27</news:publication_date>
+      <news:title>Lanzamiento en España del programa revolucionario de adelgazamiento psíquico</news:title>
+      <news:keywords>psíquico, perder peso, espiritualidad, bienestar, coaching, España, método natural</news:keywords>
+      <news:genres>PressRelease</news:genres>
+    </news:news>
+  </url>
 
-    <url>
-        <loc>https://clairvoyancemedium.github.io/Comment-retrouver-l-amour-rapidement.github.io/cgv/</loc>
-        <lastmod>2025-01-10</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.5</priority>
-    </url>
+  <!-- Artículo destacado en español -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/voyance/es/blog/tecnicas-avanzadas/</loc>
+    <lastmod>2025-05-28T00:56:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <mobile:mobile/>
+    <news:news>
+      <news:publication>
+        <news:name>Adelgazamiento Psíquico</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2025-05-27</news:publication_date>
+      <news:title>Técnicas avanzadas de adelgazamiento psíquico</news:title>
+      <news:keywords>psíquico, perder peso, España, energía espiritual, método natural</news:keywords>
+      <news:genres>Blog</news:genres>
+    </news:news>
+    <image:image>
+      <image:loc>https://i.imgur.com/H69KvL6.png</image:loc>
+      <image:title>Técnicas de adelgazamiento espiritual</image:title>
+      <image:caption>Aprende a perder peso con energía psíquica</image:caption>
+      <image:geo_location>España</image:geo_location>
+    </image:image>
+  </url>
 
+  <!-- Sección de artículos en español -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/voyance/es/articulos/</loc>
+    <lastmod>2025-05-28T00:56:00Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <mobile:mobile/>
+    <image:image>
+      <image:loc>https://i.imgur.com/H69KvL6.png</image:loc>
+      <image:title>Artículos sobre adelgazamiento psíquico</image:title>
+      <image:caption>Consejos expertos para perder peso de forma espiritual</image:caption>
+      <image:geo_location>España</image:geo_location>
+    </image:image>
+  </url>
+
+  <!-- Página de testimonios en español -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/voyance/es/testimonios/</loc>
+    <lastmod>2025-05-28T00:56:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <mobile:mobile/>
+    <image:image>
+      <image:loc>https://i.imgur.com/x9jJPra.jpg</image:loc>
+      <image:title>Testimonios Reales - Adelgazamiento Psíquico</image:title>
+      <image:caption>Historias de éxito de nuestros clientes en España</image:caption>
+      <image:geo_location>España</image:geo_location>
+    </image:image>
+  </url>
+
+  <!-- Página de contacto en español -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/voyance/es/contacto/</loc>
+    <lastmod>2025-05-28T00:56:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <mobile:mobile/>
+  </url>
+
+  <!-- Página de preguntas frecuentes en español -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/voyance/es/faq/</loc>
+    <lastmod>2025-05-28T00:56:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <mobile:mobile/>
+  </url>
 </urlset>
